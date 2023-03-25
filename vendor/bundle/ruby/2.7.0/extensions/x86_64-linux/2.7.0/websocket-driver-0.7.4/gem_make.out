@@ -1,0 +1,18 @@
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-vj0z4z sitelibdir\=./.gem.20230325-19702-vj0z4z clean
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-vj0z4z sitelibdir\=./.gem.20230325-19702-vj0z4z
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-vj0z4z sitelibdir\=./.gem.20230325-19702-vj0z4z install
+/bin/install -m 0755 websocket_mask.so ./.gem.20230325-19702-vj0z4z
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-vj0z4z sitelibdir\=./.gem.20230325-19702-vj0z4z clean

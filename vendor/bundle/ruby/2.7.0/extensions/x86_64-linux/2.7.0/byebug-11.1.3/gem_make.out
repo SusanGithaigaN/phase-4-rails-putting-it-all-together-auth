@@ -1,0 +1,22 @@
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-xe7wpa sitelibdir\=./.gem.20230325-19702-xe7wpa clean
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-xe7wpa sitelibdir\=./.gem.20230325-19702-xe7wpa
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-xe7wpa sitelibdir\=./.gem.20230325-19702-xe7wpa install
+/bin/install -m 0755 byebug.so ./.gem.20230325-19702-xe7wpa/byebug
+
+current directory: /home/susan/Development/code/phase-4/phase-4-rails-putting-it-all-together-auth/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230325-19702-xe7wpa sitelibdir\=./.gem.20230325-19702-xe7wpa clean
