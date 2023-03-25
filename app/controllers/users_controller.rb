@@ -14,17 +14,22 @@ class UsersController < ApplicationController
     # auto login feature
     def show
         # user = User.find(user_params)
-        if current_user
-            render json: current_user
+        # return current logged in user
+        if logged_in?
+            render json: current_user.slice(:id, :username, :image_url, :bio), status: :ok
         else
-            render json: { error: "Not authorized" }, status: :unauthorized
+            render json: { error: "Unauthorized" }, status: :unauthorized
         end        
     end
 
     private
 
     def user_params
-        params.permit(:username, :password, :password_confirmation, :image_url, :bio)
+        params.permit(:username, :password, :image_url, :bio)
+    end
+
+    def logged_in?
+        session[:user_id].present?
     end
 
     def current_user
